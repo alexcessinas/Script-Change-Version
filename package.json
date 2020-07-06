@@ -1,0 +1,15 @@
+{
+	"name": "change-version",
+	"description": "Un script node \"change-version\", qui prend en entrée un paramètre \"version\", qui vérifie que la version est correcte (SEMVER), qui lève une erreur à l'utilisateur, qui écrit la version dans le fichier package.json",
+	"main": "change-version.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"change-version": "node change-version.js"
+	},
+	"author": "Alex Cessinas",
+	"license": "ISC",
+	"version": "1.2.3-beta.18",
+	"dependencies": {
+		"semver": "^7.3.2"
+	}
+}
